@@ -1,4 +1,7 @@
 .App{
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: -webkit-radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 }
