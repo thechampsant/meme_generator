@@ -1,0 +1,46 @@
+@import "./abstract/mixins.scss";
+
+*,
+*::after,
+*::before{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+
+  @include respond(phone){
+    font-size: 31.25%;
+ }
+ @include respond(tab-land){
+    font-size: 56.25%; // 1rem = 9px, 9/16 = 50% 
+ }
+ @include respond(tab-port){
+    font-size: 50%; // 1rem to 8px, 8px/16px = 50%
+ }
+
+ @include respond(big-desktop){
+    font-size: 75%; 
+ }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
