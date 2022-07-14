@@ -3,7 +3,7 @@ import Logo from '../../assets/img/meme.png';
 import Photo from '../../assets/img/profile.jpg'
 
 const header = () => (
-    <div className="header">
+    <header className="header">
         <div className="header__logo">
             <img src={Logo} alt="logo" className="header__logo-pic" />
         </div>
@@ -27,7 +27,7 @@ const header = () => (
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 )
 
 export default header;

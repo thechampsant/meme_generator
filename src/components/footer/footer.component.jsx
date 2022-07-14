@@ -1,7 +1,7 @@
 import './footer.scss';
 
 const footer = () => (
-    <div className="footer">
+    <footer className="footer">
         <nav className="footer__navigation">
             <ul className="footer__navigation-list">
                 <li className="footer__navigation-item"><a href="#" className="footer__navigation-link">Home</a></li>
@@ -12,7 +12,7 @@ const footer = () => (
         <div className="footer__copyright">
             All rights resevered &copy; This site is built by Santosh Kumar Prasad
         </div>
-    </div>
+    </footer>
 )
 
 export default footer;
