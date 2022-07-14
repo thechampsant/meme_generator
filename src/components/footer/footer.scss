@@ -10,7 +10,7 @@
     background-color: #1C2833;
     display: table;
     
-    @include respond(tab-land) {
+    @include respond(tab-port) {
         height: 10vh;
     }
 
@@ -21,7 +21,7 @@
         transform: translate(-50%, -50%);
         display: table-cell;
         width: 50%;
-        @include respond(tab-land) {
+        @include respond(tab-port) {
             transform: translate(-90%, -50%);
         }
         &-item{
@@ -30,7 +30,7 @@
             &:not(:last-child){
                 margin-right: 5rem;  
 
-                @include respond(tab-land) {
+                @include respond(tab-port) {
                     margin-right: 1rem;
                 }
             }
@@ -44,7 +44,7 @@
                 color: #616A6B;
                 font-size: 1.5rem;
 
-                @include respond(tab-land) {
+                @include respond(tab-port) {
                     font-size: 1.5rem;
 
                 }
@@ -58,7 +58,7 @@
         vertical-align: middle; 
         font-size: 1.5rem;
         color: #616A6B;
-        @include respond(tab-land) {
+        @include respond(tab-port) {
             font-size: 1.5rem;
             text-align: right;
             padding: 2rem;

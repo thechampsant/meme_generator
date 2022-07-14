@@ -4,7 +4,7 @@
     display: table;
     width: 100vw;
     height: 70vh;
-    @include respond(tab-land){
+    @include respond(tab-port){
         height: 50vh;
         margin-top: 10rem;
     }
@@ -13,7 +13,7 @@
         display: table-cell;
         vertical-align: middle;
         text-align:center;
-        @include respond(tab-land){
+        @include respond(tab-port){
             width: 20%;
         }
     }   
@@ -21,7 +21,7 @@
         width: 33.3333%;
         display: table-cell;
         position: relative;
-        @include respond(tab-land){
+        @include respond(tab-port){
             width: 60%;
         }
     }
@@ -31,7 +31,7 @@
         vertical-align: middle;
         text-align: center;
 
-        @include respond(tab-land){
+        @include respond(tab-port){
             width: 20%;
         }
     }
@@ -79,7 +79,7 @@
         left: 50%;
         transform: translate(-50%, -50%) ;
 
-        @include respond(tab-land){
+        @include respond(tab-port){
             width: 20rem;
             height: 20rem;
         }
